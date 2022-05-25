@@ -1,0 +1,6 @@
+fyp_api/Mover/logs/eyemovement/checkpoints/*.ckpt.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+fyp_api/Mover/gan/TGan/sda/data/timit.dat filter=lfs diff=lfs merge=lfs -text
+*.dat filter=lfs diff=lfs merge=lfs -text
+*.ckpt.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+*.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text

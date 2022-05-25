@@ -1,0 +1,44 @@
+----------------- Options ---------------
+               batch_size: 1                             	[default: 8]
+                    beta1: 0.5                           
+                    beta2: 0.999                         
+                 capacity: 5000                          
+          checkpoints_dir: list\../logs/eyemovement/checkpoints	[default: ../logs/eyemovement/checkpoints]
+           continue_train: False                         
+                   crop_h: 30                            
+                   crop_w: 50                            
+                 data_dir: ./upload_img/input            
+             display_freq: 100                           
+               exper_name: list                          	[default: log3_25_1]
+                   gpu_id: 0                             	[default: -1]
+                 img_size: 256                           
+                 input_nc: 3                             
+                  isTrain: True                          	[default: None]
+                    is_ss: False                         
+                   lam_gp: 10.0                          
+                    lam_p: 1.0                           
+                    lam_r: 1.0                           
+                   lam_ss: 1                             
+                  log_dir: list\./logs                   	[default: ./logs]
+                loss_type: hinge                         
+                     lr_d: 0.0001                        
+                     lr_g: 0.0001                        
+               n_layers_d: 5                             
+               n_layers_e: 3                             
+               n_layers_g: 5                             
+                      ndf: 16                            
+                      nef: 32                            
+                      ngf: 16                            
+                    niter: 100000                        
+              niter_decay: 50000                         
+              num_threads: 10                            
+                output_nc: 3                             
+                    phase: train                         
+               pos_number: 4                             
+           resize_or_crop: resize_and_crop               
+               sample_dir: list\./sample_dir             	[default: ./sample_dir]
+         save_latest_freq: 1000                          
+          save_model_freq: 20000                         
+          test_sample_dir: list\output                   	[default: test_sample_dir]
+                   use_sp: False                         
+----------------- End -------------------

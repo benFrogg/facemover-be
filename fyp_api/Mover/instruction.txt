@@ -1,0 +1,4 @@
+cd C:\Mover
+#install env
+conda env create -f mover_env.yml
+activate Mover

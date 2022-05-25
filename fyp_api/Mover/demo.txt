@@ -1,0 +1,38 @@
+Animated Facial Expression 
+python switch.py --mode 1
+
+Animated Eye Movement 
+python switch.py --mode 2
+
+Gender Customization m->f 
+python switch.py --mode 3
+
+Gender Customization f->m 
+python switch.py --mode 4
+
+Face Aging y->o 
+python switch.py --mode 5
+
+Face Aging o->y 
+python switch.py --mode 6
+
+Anime-Style Image 
+python switch.py --mode 7
+
+Producing Audio cartoon_bye 
+python switch.py --mode 8
+
+Producing Audio cartoon_hello 
+python switch.py --mode 9
+
+Producing Audio man_bye 
+python switch.py --mode 10
+
+Producing Audio man_hello 
+python switch.py --mode 11
+
+Producing Audio woman_bye 
+python switch.py --mode 12
+
+Producing Audio woman_hello 
+python switch.py --mode 13
